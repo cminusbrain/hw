@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int a, b;
+    std::cin >> a >> b;
+    int p = 2*(a+b);
+    int s = a*b;
+    std::cout << "P = " << p
+                        << std::endl << "S = " << s;
+    return 0;
+}
