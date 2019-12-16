@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int d;
+    std::cin >> d;
+    double l = 3.14*d;
+    std::cout << l;
+    return 0;
+}
