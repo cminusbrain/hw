@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int r;
+    std::cin >> r;
+    double l = 2*3.14*r;
+    double s = 3.14*(r*r);
+    std::cout << "L = " << l
+              <<std::endl << "S = " << s;
+    return 0;
+}
