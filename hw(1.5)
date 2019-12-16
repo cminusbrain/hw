@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int a;
+    std::cin >> a;
+    int v = a*a*a;
+    int s = 6*(a*a);
+    std::cout << "V = " << v
+              <<std::endl << "S = " << s;
+    return 0;
+}
