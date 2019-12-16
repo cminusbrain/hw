@@ -7,7 +7,7 @@ int main()
 {
     int a;
     std::cin >> a;
-    int p = 4*a;
-    std::cout << p;
+    int s = a*a;
+    std::cout << s;
     return 0;
 }
