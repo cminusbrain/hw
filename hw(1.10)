@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int a, b;
+    std::cin >> a >> b;
+    int sum = a+b;
+    int minus = a-b;
+    int star = a*b;
+    int slash = a/b;
+    std::cout << sum << " " << minus << " " << star << " " << slash << " ";
+    return 0;
+}
