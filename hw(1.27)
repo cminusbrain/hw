@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int a;
+    std::cin >> a;
+    int a_2 = a*a;
+    int a_4 = a_2*a_2;
+    int a_8 = a_4*a_4;
+    std::cout << a_2 << " " << a_4 << " " << a_8;
+    return 0;
+}
