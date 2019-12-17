@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int t_f;
+    std::cin >> t_f;
+    int t_c = (t_f - 32)*5/9;
+    std::cout << t_c;
+    return 0;
+}
