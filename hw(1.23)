@@ -1,0 +1,18 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    int tmp = a;
+    a = c;
+    c = tmp;
+    tmp = b;
+    b = c;
+    c = tmp;
+    std::cout << a << " " << b << " " << c;
+    return 0;
+}
