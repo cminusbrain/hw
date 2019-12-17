@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int x, a, y;
+    std::cin >> x >> a >> y;
+    int one_kg = a/x;
+    int y_kg = one_kg*y;
+    std::cout << "1 kg = " << one_kg << std::endl << "y kg = " << y_kg;
+    return 0;
+}
