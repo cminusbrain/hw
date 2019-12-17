@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+
+int main()
+{
+    int x;
+    std::cin >> x;
+    double y = 3*pow(x, 6) - 6*pow(x, 2) - 7;
+    std::cout << y;
+    return 0;
+}
