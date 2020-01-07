@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    int m;
+    std::cin >> m;
+    int res = m / 1000;
+    std::cout << res;
+    return 0;
+}
