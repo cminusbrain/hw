@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int ten = n / 10;
+    int one = n % 10;
+    std::cout << ten << " " << one;
+    return 0;
+}
