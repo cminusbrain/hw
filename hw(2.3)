@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    int size;
+    std::cin >> size;
+    int size_b = size / 1024;
+    std::cout << size_b;
+    return 0;
+}
