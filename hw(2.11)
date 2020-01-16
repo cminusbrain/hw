@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int first_digit = n / 100;
+    int last_digit = n % 10;
+    int middle_digit = (n % 100) / 10;
+    int sum = first_digit + last_digit + middle_digit;
+    std::cout << sum;
+    return 0;
+}
