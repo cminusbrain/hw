@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int first_digit = n / 100;
+    std::cout << first_digit;
+    return 0;
+}
