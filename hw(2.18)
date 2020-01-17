@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int digit_to_find = (n / 1000) % 10;
+    std::cout << digit_to_find;
+    return 0;
+}
