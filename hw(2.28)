@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main()
+{
+    int k, n;
+    std::cin >> k >> n;
+    int num = ((k+n-2) % 7) + 1;
+    std::cout << num;
+    return 0;
+}
