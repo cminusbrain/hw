@@ -4,7 +4,7 @@ int main()
 {
     int k;
     std::cin >> k;
-    int num = (k+1) / 8;
+    int num = (k % 7) + 1;
     std::cout << num;
     return 0;
 }
