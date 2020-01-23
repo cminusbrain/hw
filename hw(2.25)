@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main()
+{
+    int k;
+    std::cin >> k;
+    int num = (k+3) % 7;
+    std::cout << num;
+    return 0;
+}
