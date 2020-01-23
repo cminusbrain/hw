@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main()
+{
+    int n;
+    std::cin >> n;
+    int seconds = n % 3600;
+    std::cout << seconds;
+    return 0;
+}
